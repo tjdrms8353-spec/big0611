@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Song Portfolio | Frontend Developer</title>
+    <meta name="description" content="취업 포트폴리오를 위한 원페이지 개인 사이트">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header class="site-header navbar navbar-expand-lg fixed-top">
+      <nav class="container-fluid px-3 px-lg-5" aria-label="주요 메뉴">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#profile">
+          <span class="brand-mark">S</span>
+          <span>Song Portfolio</span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="메뉴 열기">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#profile">프로필</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">기술스택</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">포트폴리오</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">연락처</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="fullpage">
+      <section id="profile" class="page-section profile-section">
+        <div class="container section-inner">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-7">
+              <span class="eyebrow">Ready to work, ready to grow</span>
+              <h1 class="display-4 fw-bold mt-3 mb-4">사용자를 먼저 생각하는 신입 웹 개발자 송성근입니다.</h1>
+              <p class="lead text-secondary mb-4">
+                HTML, CSS, Bootstrap 기반의 탄탄한 화면 구현과 깔끔한 커뮤니케이션을 강점으로,
+                팀에 빠르게 적응하고 실제 서비스에 기여하는 개발자를 목표로 합니다.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a class="btn btn-primary btn-lg" href="#portfolio">
+                  <i class="bi bi-grid-1x2-fill me-2"></i>프로젝트 보기
+                </a>
+                <a class="btn btn-outline-dark btn-lg" href="#contact">
+                  <i class="bi bi-send-fill me-2"></i>연락하기
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="profile-card">
+                <div class="avatar-wrap">
+                  <div class="avatar">SG</div>
+                </div>
+                <h2 class="h4 fw-bold mt-4 mb-2">Frontend Portfolio</h2>
+                <p class="text-secondary mb-4">웹 표준, 반응형 레이아웃, Bootstrap UI 구성</p>
+                <div class="row g-3 text-center">
+                  <div class="col-4">
+                    <div class="stat-box">
+                      <strong>4+</strong>
+                      <span>Sections</span>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="stat-box">
+                      <strong>100%</strong>
+                      <span>Responsive</span>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="stat-box">
+                      <strong>BS5</strong>
+                      <span>Based</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="page-section skills-section">
+        <div class="container section-inner">
+          <div class="section-title">
+            <span class="eyebrow">Core Skills</span>
+            <h2>실무 화면 구현에 바로 연결되는 기술스택</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-3">
+              <article class="skill-card h-100">
+                <i class="bi bi-filetype-html"></i>
+                <h3>HTML5</h3>
+                <p>시맨틱 태그, 접근성 구조, 검색 친화적인 마크업을 고려합니다.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <article class="skill-card h-100">
+                <i class="bi bi-filetype-css"></i>
+                <h3>CSS3</h3>
+                <p>Flex, Grid, 반응형 단위, 인터랙션을 활용해 안정적인 UI를 만듭니다.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <article class="skill-card h-100">
+                <i class="bi bi-bootstrap-fill"></i>
+                <h3>Bootstrap 5</h3>
+                <p>컴포넌트와 유틸리티 클래스를 조합해 빠르고 일관된 화면을 설계합니다.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <article class="skill-card h-100">
+                <i class="bi bi-git"></i>
+                <h3>Git Workflow</h3>
+                <p>버전 관리와 작은 단위의 커밋으로 협업하기 좋은 작업 습관을 지향합니다.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="page-section portfolio-section">
+        <div class="container section-inner">
+          <div class="section-title">
+            <span class="eyebrow">Selected Works</span>
+            <h2>면접에서 설명하기 좋은 프로젝트 구성</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <article class="project-card h-100">
+                <div class="project-thumb thumb-1">
+                  <i class="bi bi-window-stack"></i>
+                </div>
+                <div class="project-body">
+                  <span class="badge text-bg-light">Responsive Web</span>
+                  <h3>개인 포트폴리오 사이트</h3>
+                  <p>풀페이지 스크롤, 밝은 테마, 모바일 대응을 적용한 자기소개 웹사이트입니다.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="project-card h-100">
+                <div class="project-thumb thumb-2">
+                  <i class="bi bi-kanban-fill"></i>
+                </div>
+                <div class="project-body">
+                  <span class="badge text-bg-light">UI Design</span>
+                  <h3>업무형 대시보드</h3>
+                  <p>카드, 테이블, 필터 UI를 활용해 정보를 빠르게 확인할 수 있도록 구성했습니다.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="project-card h-100">
+                <div class="project-thumb thumb-3">
+                  <i class="bi bi-phone-fill"></i>
+                </div>
+                <div class="project-body">
+                  <span class="badge text-bg-light">Mobile First</span>
+                  <h3>반응형 랜딩 페이지</h3>
+                  <p>작은 화면부터 큰 화면까지 자연스럽게 확장되는 레이아웃을 구현했습니다.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="page-section contact-section">
+        <div class="container section-inner">
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-6">
+              <span class="eyebrow">Contact</span>
+              <h2 class="fw-bold mt-3 mb-4">함께 일할 준비가 되어 있습니다.</h2>
+              <p class="lead text-secondary">
+                포트폴리오 검토, 면접 제안, 협업 문의를 환영합니다.
+                빠르게 배우고 성실하게 완성하는 태도로 팀에 보탬이 되겠습니다.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-panel">
+                <a href="mailto:example@email.com" class="contact-item">
+                  <i class="bi bi-envelope-fill"></i>
+                  <span>
+                    <small>Email</small>
+                    example@email.com
+                  </span>
+                </a>
+                <a href="tel:010-0000-0000" class="contact-item">
+                  <i class="bi bi-telephone-fill"></i>
+                  <span>
+                    <small>Phone</small>
+                    010-0000-0000
+                  </span>
+                </a>
+                <a href="https://github.com/" target="_blank" rel="noopener" class="contact-item">
+                  <i class="bi bi-github"></i>
+                  <span>
+                    <small>GitHub</small>
+                    github.com/your-id
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container-fluid px-3 px-lg-5 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <span>&copy; 2026 Song Portfolio. All rights reserved.</span>
+        <span>Built with HTML, CSS3, Bootstrap 5</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
